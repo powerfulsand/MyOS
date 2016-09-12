@@ -24,8 +24,7 @@ $ sudo  apt-get install libgtk2.0-dev
 $ sudo  apt-get install nasm
 $ sudo  apt-get install vgabios
 
-将项目clone到本地,首先打开到目标文件夹下,然后运行:
-$ git clone 
+首先打开到目标文件夹下,然后运行:
 $ cd OSCourseProject /Tinix-master
 $ sudo make image
 $ bochs 
