@@ -186,21 +186,18 @@ void clearScreen()
 void help()
 {
 	printf("           ==============================================\n");
-	printf("            Designed By ZhangZijian ShaWei & LiuJiazhen   \n");
+	printf("            ZhangZijian ShaWei & LiuJiazhen   OS\n");
 	printf("           ==============================================\n");
 	printf("\n");
-	printf("      ==========================================================\n");
-	printf("      =====  help         --------  show the help menu     =====\n");
-	printf("      =====  clear        --------  clear screen           =====\n");
-	printf("      =====  Fn+F2        --------  show the process run   =====\n");
-	printf("      =====  Fn+F3        --------  calculator             =====\n");
-	printf("      =====  Fn+F4        --------  clock                  =====\n");
-	printf("      =====  Fn+F5        --------  calender               =====\n");
-	printf("      =====  kill 2~7     --------  kill the process 2~5   =====\n");
-	printf("      =====  start 2~7    --------  start the process 2~5  =====\n");
-	printf("      =====  show         --------  show the process state =====\n");
-	printf("      =====  goodbye      --------  shut down the computer =====\n");
-	printf("      ==========================================================\n");
+	printf("      input the hot key to operate\n");
+	printf("      help and enter---------show the help menu\n");
+	printf("      clear and enter---------clear the screen\n");
+	printf("      F2--------show the process run\n");
+	printf("      F3--------run calculator\n");
+	printf("      F4--------run clock\n");
+	printf("      F5--------run calender\n");
+	printf("      F1--------return main\n");
+	printf("      goodbye and enter--------shut down the computer\n");
 	printf("\n");
 }
 
@@ -398,7 +395,7 @@ void TestE()
 }
 
 /*======================================================================*
-								goBangGame
+								clock
 *=======================================================================*/
 
 
